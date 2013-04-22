@@ -1,0 +1,21 @@
+{
+    "name": "nodemysqlmonitor",
+    "version": "0.0.1",
+    "description": "Monitor the mysql service by checking the connection on intervals.",
+    "keywords": [
+        "mysql",
+        "monitor"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/tk120404/node-mysql-monitor.git"
+    },
+    "dependencies": {
+        "mysql": ">=0.9.0"
+    },
+    "main": "./monitor.js",
+    "readme": "node-mysql-monitor",
+    "readmeFilename": "README.md",
+    "_id": "nodemysqlmonitor@0.0.1",
+    "_from": "nodemysqlmonitor"
+}
