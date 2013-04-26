@@ -13,7 +13,7 @@ var mysql = require('mysql'),
 (function watchService() {
     d.on('error', function (err) {
         console.error(err);
-        exec(config.command.mysql_restart, puts);
+        exec(config.command.mysql_restart, logs);
         setTimeout(watchService, config.command.timeout);
     });
 
