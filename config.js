@@ -6,7 +6,17 @@ module.exports = {
         port: '3306'
     },
     command: {
-        mysql_restart: 'sudo sh /opt/wordpress-3.4-0/ctlscript.sh restart',
-        timeout : 600000
-    }
+        sudo: 'sudo',
+        sh: 'sh',
+        script: '/opt/wordpress-3.5.1-1/ctlscript.sh',
+        restart: 'restart',
+        timeout: 60000
+    },
+    sendgrid: {
+        user: 'user',
+        key: 'password',
+        fromemail: 'admin@mysite.com',
+        toemail: 'me@mysite.com'
+    },
+    website:'www.mysite.com'
 };
